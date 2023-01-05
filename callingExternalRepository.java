@@ -11,4 +11,6 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 @Repository
-public interface callingExternalRepository extends JpaRepository<CallingExternalModel,String>{}
+public interface callingExternalRepository extends JpaRepository<CallingExternalModel,String>{}{
+  
+}
